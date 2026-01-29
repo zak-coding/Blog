@@ -4,15 +4,12 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class User extends Model
+class PostView extends Model
 {
     //
 
     protected $fillable = [
-        'name',
-        'email',
-        'password',
-        'avatar',
-        'bio'
+        'post_id',
+        'user_id'
     ];
 }
